@@ -1,0 +1,260 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>GenAI Labs</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  codelab-ga4id=""
+                  id="docs"
+                  title="GenAI Labs"
+                  environment="web"
+                  feedback-link="-">
+    
+      <google-codelab-step label="Safeguarding with Vertex AI Gemini API" duration="0">
+        <ol type="1" start="1">
+<li>Log into <a href="https://googlecloud.qwiklabs.com" target="_blank">https://googlecloud.qwiklabs.com</a> and navigate to the <strong>Introduction to Responsible AI in Practice</strong> class.</li>
+<li>Start the <strong>Explaining Text Classification with Vertex Explainable AI</strong> lab</li>
+<li>Follow the instructor&#39;s guidance to log into Google Cloud with lab credentials</li>
+</ol>
+<aside class="warning"><p><strong>You will NOT be following the Qwiklabs instructions for this lab. </strong>Rather, follow the instructions below.</p>
+</aside>
+<h2 is-upgraded><strong>Creating a notebook instance</strong></h2>
+<ol type="1" start="4">
+<li>Go to <strong>Navigation &gt; Vertex AI &gt; Workbench</strong></li>
+<li>Click on the <strong>ENABLE ALL RECOMMENDED APIS</strong> button</li>
+<li>Click on the <strong>Instance</strong> tab and then on the <strong>Instances</strong> view</li>
+<li>Click <strong>CREATE NEW</strong></li>
+<li>Enter <code>safeguarding</code> as the name of your instance, leave the rest of the settings at their default values, and click on <strong>CREATE</strong></li>
+</ol>
+<h2 is-upgraded><strong>Setting up your notebook instance</strong></h2>
+<ol type="1" start="9">
+<li>When your instance has been created and you see the <strong>OPEN JUPYTERLAB</strong> button, click the button to open a new tab in your browser that connects to the instances JupyterLab software</li>
+<li>On the left side of the JupyterLab interface, you will see a vertical tool palette. Click the Git icon in the palette.</li>
+<li>Click on the <strong>Clone a repository</strong> button</li>
+<li>In the modal popup, enter the following Github URL - <a href="https://github.com/GoogleCloudPlatform/asl-ml-immersion.git" target="_blank">https://github.com/GoogleCloudPlatform/asl-ml-immersion.git</a> - and then click <strong>Clone</strong></li>
+</ol>
+<h2 is-upgraded><strong>Work through the safety ratings notebook</strong></h2>
+<ol type="1" start="13">
+<li>In the navigation pane, drill down to <strong>asl-ml-immersion &gt; notebooks &gt; responsible_ai &gt; safety &gt; solutions</strong></li>
+<li>Double-click on the <strong> gemini_safety_ratings</strong> notebook</li>
+<li>When prompted, accept the <strong>Python 3</strong> kernel and click <strong>Select</strong></li>
+</ol>
+<p>Work through the entire notebook<br></p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Prompt Design for Text Chats" duration="0">
+        <ol type="1" start="1">
+<li>Log into <a href="https://googlecloud.qwiklabs.com" target="_blank">https://googlecloud.qwiklabs.com</a> and navigate to the <strong>Interactive Chat for Applications using Generative AI Studio</strong> class.</li>
+<li>Start the <strong>Prompt Design for Text Chats in Vertex AI Studio</strong> lab</li>
+<li>Follow the instructor&#39;s guidance to log into Google Cloud with lab credentials</li>
+</ol>
+<aside class="warning"><p><strong>You will NOT be following the Qwiklabs instructions for this lab. </strong>Rather, follow the instructions below.</p>
+</aside>
+<h2 is-upgraded><strong>Creating a notebook instance</strong></h2>
+<ol type="1" start="4">
+<li>Go to <strong>Navigation &gt; Vertex AI &gt; Workbench</strong></li>
+<li>Click on the <strong>ENABLE ALL RECOMMENDED APIS</strong> button</li>
+<li>Click on the <strong>Instance</strong> tab and then on the <strong>Instances</strong> view</li>
+<li>Click <strong>CREATE NEW</strong></li>
+<li>Enter <code>prompts</code> as the name of your instance, leave the rest of the settings at their default values, and click on <strong>CREATE</strong></li>
+</ol>
+<h2 is-upgraded><strong>Setting up your notebook instance</strong></h2>
+<ol type="1" start="9">
+<li>When your instance has been created and you see the <strong>OPEN JUPYTERLAB</strong> button, click the button to open a new tab in your browser that connects to the instances JupyterLab software</li>
+<li>On the left side of the JupyterLab interface, you will see a vertical tool palette. Click the Git icon in the palette.</li>
+<li>Click on the <strong>Clone a repository</strong> button</li>
+<li>In the modal popup, enter the following Github URL - <a href="https://github.com/GoogleCloudPlatform/generative-ai.git" target="_blank">https://github.com/GoogleCloudPlatform/generative-ai.git</a>  - and then click <strong>Clone</strong></li>
+</ol>
+<h2 is-upgraded><strong>Work through the intro notebook</strong></h2>
+<ol type="1" start="16">
+<li>In the navigation pane, drill down to <strong>generative-ai &gt; gemini &gt; prompts</strong></li>
+<li>Double-click on the <strong> intro_prompt_design</strong> notebook</li>
+<li>When prompted, accept the <strong>Python 3</strong> kernel and click <strong>Select</strong></li>
+<li>Work through the entire notebook</li>
+</ol>
+<h2 is-upgraded><strong>Work through example notebooks</strong></h2>
+<ol type="1" start="20">
+<li>In the navigation pane, drill down into the examples folder</li>
+<li>Work through each of the notebooks you find there, excluding the chain_of_though_react workbook (that&#39;s for later!)</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Building a chatbot with the Gemini API" duration="0">
+        <h2 is-upgraded><strong>Setting up</strong></h2>
+<ol type="1" start="1">
+<li>Log into <a href="https://googlecloud.qwiklabs.com" target="_blank">https://googlecloud.qwiklabs.com</a> and navigate to the <strong>Interactive Chat for Applications using Generative AI Studio</strong> class.</li>
+<li>Start the <strong>Integrating the PaLM API into Applications</strong> lab</li>
+<li>Log into Google Cloud with the lab-generated credentials</li>
+<li>Click on the <strong>Activate Cloud Shell</strong> button</li>
+</ol>
+<aside class="warning"><p><strong>You will NOT be following the Qwiklabs instructions for this lab. </strong>Rather, follow the instructions below.</p>
+</aside>
+<h2 is-upgraded><strong>Stage the chatbot files in Cloud Shell</strong></h2>
+<ol type="1" start="5">
+<li>Activate Cloud Shell</li>
+<li>In Cloud Shell, enter the following to clone the class repository:</li>
+</ol>
+<pre><code>git clone https://github.com/roitraining/cp-class.git</code></pre>
+<ol type="1" start="7">
+<li>In Cloud Shell, change to the <strong>chat_app_lab</strong> directory</li>
+</ol>
+<pre><code>cd cp-class/chat_app_lab</code></pre>
+<h2 is-upgraded><strong>Open source code in editor</strong></h2>
+<ol type="1" start="8">
+<li>Click on <strong>Open Editor</strong> button</li>
+<li>Drill down to <strong>student_xxx &gt; cp-class &gt; chat_app_lab &gt; chat.py</strong></li>
+</ol>
+<h2 is-upgraded><strong>Write code to complete the application</strong></h2>
+<ol type="1" start="10">
+<li>Look at line 34. You can see the app is calling a method in the <strong>gemini</strong> module. This module implements the logic needed to call the Gemini AI. You will be writing most of this code</li>
+<li>In the file tree, click on the <strong>gemini.py</strong> file</li>
+<li>Write the code required to implement the desired functionality after each of the comments offering direction. Use your notes, use Vertex AI Studio, use the Git repo, or the following docs to help</li>
+</ol>
+<ul>
+<li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/send-chat-prompts-gemini" target="_blank">https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/send-chat-prompts-gemini</a> </li>
+<li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.GenerationConfig" target="_blank">https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.GenerationConfig</a></li>
+<li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.SafetySetting" target="_blank">https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.SafetySetting</a> </li>
+<li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/inference#python" target="_blank">https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/inference#python</a></li>
+<li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.GenerativeModel#vertexai_generative_models_GenerativeModel_start_chat" target="_blank">https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.GenerativeModel#vertexai_generative_models_GenerativeModel_start_chat</a> </li>
+<li><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.ChatSession" target="_blank">https://cloud.google.com/vertex-ai/generative-ai/docs/reference/python/latest/vertexai.generative_models.ChatSession</a></li>
+</ul>
+<ol type="1" start="13">
+<li>There is a completed app available for review in the <strong>chat_app_sol</strong> folder.</li>
+</ol>
+<aside class="special"><p><strong>Note</strong></p>
+<ol type="1" start="1">
+<li>You will not be iterating through streaming response chunks in this module; you are returning the responses generator to the chat module.</li>
+<li>You are storing the chat_client into state variables since you want to re-use it (and the message history it contains) across interactions with the user</li>
+</ol>
+</aside>
+<ol type="1" start="14">
+<li>Return to the chat.py module in your editor</li>
+<li>Review the code at line 39. Note how this iterates through the parts streamed back from the API and builds out your complete response as the parts become available.</li>
+<li>Scroll up and review lines 19-27. Note that these take the chat_client and use its history property to get a list of messages which are displayed to the user. This client is also used in interactions after the first to carry the conversation history for the next prediction.</li>
+</ol>
+<h2 is-upgraded><strong>Deploy and test the app</strong></h2>
+<ol type="1" start="17">
+<li>In the editor file tree, select <strong>cloudbuild.yaml</strong></li>
+<li>On line 27, replace <strong>your_logo_url</strong> with the URL provided by your instructor</li>
+<li>Save the file</li>
+<li>Switch back to the terminal in Cloud Shell</li>
+<li>Enable services required to build and deploy the application</li>
+</ol>
+<pre><code> gcloud services enable cloudbuild.googleapis.com
+ gcloud services enable run.googleapis.com
+ gcloud services enable artifactregistry.googleapis.com
+ gcloud services enable aiplatform.googleapis.com
+ gcloud services enable compute.googleapis.com</code></pre>
+<ol type="1" start="22">
+<li>Add permission to cloud build service</li>
+</ol>
+<pre><code>PROJECT_ID=$(gcloud config get-value project)
+PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID \
+    --format=&#39;value(projectNumber)&#39;)
+SERVICE_ACCOUNT=&#34;$PROJECT_NUMBER@cloudbuild.gserviceaccount.com&#34;
+
+gcloud projects add-iam-policy-binding \
+    $PROJECT_ID \
+    --member=serviceAccount:$SERVICE_ACCOUNT \
+    --role=roles/run.admin
+gcloud projects add-iam-policy-binding \
+    $PROJECT_ID \
+    --member=serviceAccount:$SERVICE_ACCOUNT \
+    --role=roles/artifactregistry.admin
+gcloud projects add-iam-policy-binding \
+    $PROJECT_ID \
+    --member=serviceAccount:$SERVICE_ACCOUNT \
+    --role=roles/iam.serviceAccountUser</code></pre>
+<ol type="1" start="23">
+<li>Create a repository for the application container</li>
+</ol>
+<pre><code>gcloud artifacts repositories create chat \
+    --repository-format=Docker \
+    --location=us-central1</code></pre>
+<ol type="1" start="24">
+<li>Create a cloud build job to generate the image, upload, and deploy the Cloud Run service</li>
+</ol>
+<pre><code>gcloud builds submit . --config=cloudbuild.yaml</code></pre>
+<h2 is-upgraded><strong>Test and iterate your application</strong></h2>
+<ol type="1" start="25">
+<li>Go to <strong>Cloud Run </strong>in the console and get the URL of your service</li>
+<li>Open a new tab pointed at that URL</li>
+<li>Try out the chatbot and confirm that it works</li>
+<li>Make any changes you want/need, and redeploy by re-running the command from step 24</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Text Embeddings and Vertex Search" duration="0">
+        <ol type="1" start="1">
+<li>Log into <a href="https://googlecloud.qwiklabs.com" target="_blank">https://googlecloud.qwiklabs.com</a> and navigate to the <strong>Vertex AI Model Garden</strong> class.</li>
+<li>Start the <strong>Use the PaLM API to Cluster Products Based on Descriptions</strong> lab</li>
+<li>Follow the instructor&#39;s guidance to log into Google Cloud with lab credentials</li>
+</ol>
+<aside class="warning"><p><strong>You will NOT be following the Qwiklabs instructions for this lab. </strong>Rather, follow the instructions below.</p>
+</aside>
+<h2 is-upgraded><strong>Try out the sample application</strong></h2>
+<ol type="1" start="4">
+<li>In a new browser tab, visit <a href="https://ai-demos.dev/" target="_blank">https://ai-demos.dev/</a> </li>
+<li>Play around with the application</li>
+<li>Click on <strong>HOW WE BUILT IT</strong> and review the design of the application</li>
+</ol>
+<h2 is-upgraded><strong>Creating a notebook instance</strong></h2>
+<ol type="1" start="7">
+<li>Go to <strong>Navigation &gt; Vertex AI &gt; Workbench</strong></li>
+<li>Click on the <strong>ENABLE ALL RECOMMENDED APIS</strong> button</li>
+<li>Click on the <strong>Instance</strong> tab and then on the <strong>Instances</strong> view</li>
+<li>Click <strong>CREATE NEW</strong></li>
+<li>Enter <code>embeddings</code> as the name of your instance, leave the rest of the settings at their default values, and click on <strong>CREATE</strong></li>
+</ol>
+<h2 is-upgraded><strong>Setting up your notebook instance</strong></h2>
+<ol type="1" start="12">
+<li>When your instance has been created and you see the <strong>OPEN JUPYTERLAB</strong> button, click the button to open a new tab in your browser that connects to the instances JupyterLab software</li>
+<li>On the left side of the JupyterLab interface, you will see a vertical tool palette. Click the Git icon in the palette.</li>
+<li>Click on the <strong>Clone a repository</strong> button</li>
+<li>In the modal popup, enter the following Github URL - <a href="https://github.com/roitraining/cp-class.git" target="_blank">https://github.com/roitraining/cp-class.git</a>  - and then click <strong>Clone</strong></li>
+</ol>
+<h2 is-upgraded><strong>Work through the intro-textemb-vectorsearch.ipynb notebook</strong></h2>
+<ol type="1" start="16">
+<li>In the navigation pane, drill down to <strong>cp-class &gt; intro-textemb-vectorsearch</strong></li>
+<li>Double-click on the <strong> intro-textemb-vectorsearch</strong> notebook</li>
+<li>When prompted, accept the <strong>Python 3</strong> kernel and click <strong>Select</strong></li>
+<li> Work through the entire notebook</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
