@@ -4,7 +4,8 @@ from PIL import Image
 
 from google.cloud import aiplatform
 
-from config import project_id, region
+project_id = "jwd-centerpoint-class"
+region = "us-central1"
 
 def base64_to_image(image_str):
     """Convert base64 encoded string to an image."""
@@ -44,5 +45,3 @@ instances = [
 endpoint = get_endpoint("3023997824988610560")
 response = endpoint.predict(instances=instances)
 images = [base64_to_image(image) for image in response.predictions]
-for image in images:
-    st.image(image, use_column_width=True)
